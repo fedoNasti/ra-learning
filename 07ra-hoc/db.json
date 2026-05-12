@@ -1,0 +1,31 @@
+{
+  "orders": [
+    {
+      "id": "1",
+      "customerName": "Anna",
+      "pickupLocation": "Moscow",
+      "dropoffLocation": "SPB",
+      "driverName": "Anatoly",
+      "status": "end",
+      "price": "398"
+    },
+    {
+      "id": "2",
+      "customerName": "Ivan",
+      "pickupLocation": "SPB",
+      "dropoffLocation": "SPB",
+      "driverName": "Dmitry",
+      "status": "end",
+      "price": "669"
+    },
+    {
+      "id": "3",
+      "customerName": "Jane",
+      "pickupLocation": "Moscow",
+      "dropoffLocation": "Moscow",
+      "driverName": "Anatoly",
+      "status": "end",
+      "price": "493"
+    }
+  ]
+}
