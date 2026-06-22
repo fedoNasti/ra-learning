@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import AuthContext from '../contexts/AuthContext';
 
 async function fetchNews(url, options) {
     const response = await fetch(url, options);
@@ -11,6 +12,8 @@ export default function usePolling( url, interval, initialData ) {
   const [isLoading, setLoading] = useState(false)
   const [hasError, setError] = useState(null);
   const currentController = useRef();
+
+  const { token, setToken } = useContext(AuthContext);
 
   useEffect(() => {
 

@@ -1,0 +1,20 @@
+{
+  "services": [
+    {
+      "id": "001",
+      "name": "Замена стекла",
+      "price": "21000"
+    },
+    {
+      "id": "002",
+      "name": "Замена дисплея",
+      "price": "25000"
+    },
+    {
+      "name": "Ремонт дисплея",
+      "price": 2150,
+      "id": "dK_TBYsdR8Y"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

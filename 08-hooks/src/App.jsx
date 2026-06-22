@@ -13,10 +13,14 @@ function App() {
 
 
   return (
-    
-    <AuthContext.Provider value={{token, setToken, profile, setProfile}}>
-      <LatestNews/>
+   <>
+    <AuthContext.Provider value={{token, setToken}}>
+      
     </AuthContext.Provider>
+
+    <LatestNews/>
+   </> 
+    
     
   )
 }
